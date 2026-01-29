@@ -2,7 +2,7 @@
 GITHUB_USERNAME=ruandg
 GITHUB_EMAIL=ruan.gomes@ifpb.edu.br
 
-SERVICE_NAME=payment   // Aqui antes era um valor fixo 'order' eu só reutilizei a variável para o serviço de payment.
+SERVICE_NAME=shipping   # Aqui antes era um valor fixo 'order' eu só reutilizei a variável para o serviço de payment.
 RELEASE_VERSION=v1.2.3
 
 go install google.golang.org/protobuf/cmd/protoc-gen-go@latest 
